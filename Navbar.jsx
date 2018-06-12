@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const Nav = (props) =>{
+export const Nav = (props) =>{
   return(
     <div id='one' classNameName='w3-padding'>
         <div classNameName='w3-inblock'>
@@ -24,4 +24,4 @@ const Nav = (props) =>{
   )
 }
 
-// ReactDOM.render(<Nav/>, document.getElementById('main'));
+// ReactDOM.render(<Nav/>, document.getElementById('navBar'));

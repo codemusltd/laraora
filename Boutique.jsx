@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const Boutique = (props) =>{
+export const Boutique = (props) =>{
     return(
       <div id='two' className='w3-display-container'>
       <div className='w3-display-container w3-text-white'>
@@ -25,4 +25,4 @@ const Boutique = (props) =>{
     )
   }
   
-//   ReactDOM.render(<Boutique/>, document.getElementById('main'));
+//   ReactDOM.render(<Boutique/>, document.getElementById('boutique'));
