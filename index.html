@@ -10,20 +10,26 @@
     <script src='main.js'></script>
 </head>
 <body>
-    <div id='main' className=''>
-            <div id='navBar' className='w3-light-grey'></div>
-            <div id='boutique' className=''></div>
-            <div id='info' className='w3-sand'></div>
-            <div id='contact' className='w3-sand'></div>
-            <div id='tweeter' className='w3-dark-grey' style='width:80%; margin:auto; overflow:auto'>
+    <div id='main' className='w3-container'>
+            <div id='navBar' className='w3-container w3-light-grey'></div>
+            <div id='boutique' className='w3-container'></div>
+            <div id='info' className='w3-container w3-sand'></div>
+            <div id='contact' className='w3-container w3-sand'></div>
+            <div id='tweeter' className='w3-container w3-dark-grey' style='width:80%; margin:auto; overflow:auto'>
                     <a class='twitter-timeline' href='https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw'>National Park Tweets - Curated tweets by TwitterDev</a> 
                     <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>
             </div>
-            <div id='bottom' className='w3-black'>
-                <div id='address'></div>
-                <div id='subscribe'></div>
-                <div id='copyright'></div>
-                <div id='developer'></div>
+            <div id='bottom' className='w3-display-container w3-black'>
+                <table className= 'w3-table w3-black w3-section w3-margin'>
+                    <tr>
+                        <td id='add'></td>
+                        <td id='sub'></td>
+                    </tr>
+                </table>
+            </div>
+            <div id='copyright'>
+                <div id='copy'></div>
+                <div id='dev'></div>
             </div>
     </div>   
 </body>

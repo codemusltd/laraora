@@ -1,0 +1,28 @@
+/*navBar*/
+#navBar{
+    background:linear-gradient(to bottom, rgba(208,208,208,1), rgba(184,184,184,1));
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+
+  /*boutique*/
+.w3-caps{
+    text-transform: uppercase;
+  }
+  
+  span#beauty{
+    font-family: Julius Sans One;
+    text-rendering:optimizeLegibility;
+    /* font-smoothing: antialiased; */
+  }
+  
+  div>h3{
+    font-family: proxima-nova;
+    text-transform: uppercase;
+  }
+
+   /*bottom*/
+    /*address*/
+    .w3-normal{
+        font-style:normal;
+    }

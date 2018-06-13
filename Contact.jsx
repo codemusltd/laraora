@@ -10,4 +10,4 @@ export const Contact = (props) =>{
     )
   }
   
-//   ReactDOM.render(<Contact/>, document.getElementById('contact'));
+ReactDOM.render(<Contact/>, document.getElementById('contact'));
